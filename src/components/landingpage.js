@@ -27,7 +27,7 @@ class Landing extends Component {
                         </Cell>
                         <Cell col={6} id="right-cell">
                         <h1 className="cellText2">PATRIK HOGLER</h1>
-                        <p className="cellText">Jag heter Patrik Hogler och är 30 år gammal . Nu i Juni så tog jag min Front End Utvecklare examen på KYH Stockholm, som var en två årig yrkesutbildning. Under min utbildning så har jag fått lära mig om HTML,CSS, JavaScript, CMS(Wordpress) och UX. Jag har även genomfört en 5 månaders lång praktik period på ett företag, där jag fått bidra samt att utveckla mina kunskaper. Efter min examen så hoppade jag på en utbildning där jag fått lära mig lite mer om SEO. Då jag är nyexaminerad och väldigt fräsch i branschen så letar jag nu efter ett jobb. Jag ser mig själv fortfarande som väldigt ny inom webbutveckling men är väldigt driven och nyfiken på att lära mig ännu mer.</p>
+                        <p className="cellText">My name is Patrik Hogler and I'm 30 years old. Based in Stockholm, Sweden. Recently in June, I took my Front End Developer degree at KYH Stockholm, which was a two year profession education. During my study, i have learned about HTML, CSS, JavaScript, CMS (Wordpress) and UX/UI. I have also completed a 5 month long internship at a company, where I received and contributied my developed skills. After graduating, I jumped on an education where I learned a little more about SEO. Since I am newly graduated and very fresh in the game, I am looking for a job. I still see myself as very new in web development but am very driven and curious to learn even more.</p>
                         <p className="cellText3">
                         <span className="html">HTML/CSS</span> -
                         <span className="bootstrap"> Bootstrap</span> -
@@ -43,23 +43,23 @@ class Landing extends Component {
        
                             <div className="social-links">
             
-                            <a href="https://se.linkedin.com/in/patrik-hogler-1377b0129" target="_blank">
-                                <i class="fab fa-linkedin"></i>
+                            <a href="https://se.linkedin.com/in/patrik-hogler-1377b0129" rel="noopener noreferrer" target="_blank">
+                                <i className="fab fa-linkedin"></i>
                             </a>
 
                            
-                             <a href="https://github.com/puttetham" target="_blank">
-                                <i class="fab fa-github"></i>
+                             <a href="https://github.com/puttetham" rel="noopener noreferrer" target="_blank">
+                                <i className="fab fa-github"></i>
                             </a>
 
                             
-                            <a href="https://www.facebook.com/people/Patrik-Thammavit/753827673" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href="https://www.facebook.com/people/Patrik-Thammavit/753827673" rel="noopener noreferrer" target="_blank">
+                                <i className="fab fa-facebook"></i>
                             </a>
 
                            
-                            <a href="https://www.instagram.com/puttetham/" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/puttetham/" rel="noopener noreferrer" target="_blank">
+                                <i className="fab fa-instagram"></i>
                             </a>
 
                             </div>

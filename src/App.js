@@ -10,15 +10,15 @@ class App extends Component {
     return (
     <div className="demo-big-content">
         <Layout fixedHeader>
-            <Header className="header-color" title="PATRIK HOGLER">
+            <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#fff', display: 'block'}} to="/">Patrik Hogler</Link>}>
                 <Navigation>
-                <div classnaMe="menudiv" style={{position: 'relative'}}>
+                <div className="menudiv" style={{position: 'relative'}}>
                     <IconButton className="iconbuttonz" name="more_vert" id="demo-menu-lower-left" />
                     <Menu target="demo-menu-lower-left">
-                        <MenuItem><Link to="/resume">Resume</Link></MenuItem>
-                        <MenuItem><Link to="/aboutme">About me</Link></MenuItem>
-                        <MenuItem><Link to="/project">Projects</Link></MenuItem>
-                        <MenuItem><Link to="/contact">Contact</Link></MenuItem>
+                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/resume">Resume</Link></MenuItem>
+                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/aboutme">About me</Link></MenuItem>
+                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/project">Projects</Link></MenuItem>
+                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/contact">Contact</Link></MenuItem>
                     </Menu>
                 </div>
                 </Navigation>
@@ -30,7 +30,7 @@ class App extends Component {
             </Content>
         </Layout>
     </div>
-    // <div classnaMe="menudiv" style={{position: 'relative'}}>
+    // <div className="menudiv" style={{position: 'relative'}}>
     //     <IconButton className="iconbuttonz" name="add" id="demo-menu-lower-left" />
     //     <Menu target="demo-menu-lower-left">
     //         <MenuItem><Link to="/resume">Resume</Link></MenuItem>
