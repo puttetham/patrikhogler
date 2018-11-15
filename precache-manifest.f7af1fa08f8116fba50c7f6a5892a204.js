@@ -16,15 +16,15 @@ self.__precacheManifest = [
     "url": "/patrikhogler/static/js/runtime~main.c4689e61.js"
   },
   {
-    "revision": "f7482546be5d13ccabef",
-    "url": "/patrikhogler/static/js/main.f7482546.chunk.js"
+    "revision": "dd4fd80ac5cc4c76f71e",
+    "url": "/patrikhogler/static/js/main.dd4fd80a.chunk.js"
   },
   {
     "revision": "0a56a7e27de245957e3a",
     "url": "/patrikhogler/static/js/1.0a56a7e2.chunk.js"
   },
   {
-    "revision": "f7482546be5d13ccabef",
+    "revision": "dd4fd80ac5cc4c76f71e",
     "url": "/patrikhogler/static/css/main.e300de96.chunk.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/patrikhogler/static/css/1.d74f8946.chunk.css"
   },
   {
-    "revision": "bf771b01d982b795684ffd5b15fedb48",
+    "revision": "83e239f0f661fc74dbcf626caa933269",
     "url": "/patrikhogler/index.html"
   }
 ];
