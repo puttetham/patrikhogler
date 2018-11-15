@@ -1,7 +1,7 @@
 {
   "main.css": "/patrikhogler/static/css/main.e300de96.chunk.css",
-  "main.js": "/patrikhogler/static/js/main.3530f6e8.chunk.js",
-  "main.js.map": "/patrikhogler/static/js/main.3530f6e8.chunk.js.map",
+  "main.js": "/patrikhogler/static/js/main.f7482546.chunk.js",
+  "main.js.map": "/patrikhogler/static/js/main.f7482546.chunk.js.map",
   "static/css/1.d74f8946.chunk.css": "/patrikhogler/static/css/1.d74f8946.chunk.css",
   "static/js/1.0a56a7e2.chunk.js": "/patrikhogler/static/js/1.0a56a7e2.chunk.js",
   "static/js/1.0a56a7e2.chunk.js.map": "/patrikhogler/static/js/1.0a56a7e2.chunk.js.map",
@@ -13,6 +13,6 @@
   "static/media/patrikhogler.png": "/patrikhogler/static/media/patrikhogler.bcd61d5a.png",
   "static/css/1.d74f8946.chunk.css.map": "/patrikhogler/static/css/1.d74f8946.chunk.css.map",
   "index.html": "/patrikhogler/index.html",
-  "precache-manifest.db4c02f57d7c35cd7f00f209a90ab6c7.js": "/patrikhogler/precache-manifest.db4c02f57d7c35cd7f00f209a90ab6c7.js",
+  "precache-manifest.2fb04bf0b93f7d94e5d350b080f0f0b3.js": "/patrikhogler/precache-manifest.2fb04bf0b93f7d94e5d350b080f0f0b3.js",
   "service-worker.js": "/patrikhogler/service-worker.js"
 }
