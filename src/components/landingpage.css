@@ -85,9 +85,6 @@
 }
 
 
-
-
-
 .banner-text {
     color: #fff;
     width: 60%;
@@ -96,6 +93,17 @@
     border: 3px dotted #fff;
     padding: 20px;
     font-family: 'Special Elite', cursive;
+}
+
+.banner-code {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    display: block;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size:2em;
+    margin-top: 2rem;
 }
 
 .frontend {
@@ -144,6 +152,14 @@
         width: 100%;
     }
 
+    .cellText2 {
+        margin-top: 20px;
+    }
+
+    .banner-code {
+        font-size: 1.1em;
+    }
+
     .backimg {
         background-position: 35% 90%;
     }
@@ -160,6 +176,11 @@
         margin-top: 40px;
         font-size: 2em;
         font-weight: bold;
+    }
+
+    .landing-grid2 {
+        margin-top: 50px !important;
+        text-align: center;
     }
 
 }

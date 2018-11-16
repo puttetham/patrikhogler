@@ -1,0 +1,73 @@
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+ margin-top: 40px !important;
+ margin-bottom: 50px !important;
+}
+
+.grid-container {
+    width: 100%;
+    text-align: center;
+}
+
+.project-linebreak {
+    width: 3%;
+    border-top: 5px solid #c70039;
+    margin: auto;
+    margin: 20px auto;
+}
+
+.project-text {
+    font-family: 'Special Elite', sans-serif;
+    padding: 20px;
+    margin-top: 10px;
+    width: 70%;
+    margin: 0 auto;
+    text-align:left;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.project-head {
+    font-family: 'Special Elite', sans-serif;
+    margin: auto;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.frontend {
+    color:#c70039;
+}
+
+.mdl-tabs__tab {
+    font-family: 'Special Elite', sans-serif;
+    color: #191919;
+    font-weight: bold !important;
+}
+
+.mdl-card__supporting-text {
+    color:#323232 !important;
+    font-weight: bold !important;
+    font-family: 'Raleway', cursive, sans-serif;
+    letter-spacing: 2px;
+    overflow: hidden;
+    height: 90px;
+}
+
+.mdl-card__title-text {
+    color: #FFF !important;
+    font-weight: bold !important;
+    font-family: 'Special Elite', cursive, sans-serif
+}
+
+.mdl-button {
+    font-weight: bold !important;
+    font-family: 'Special Elite', cursive, sans-serif
+}
+
+
