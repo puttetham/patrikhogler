@@ -5,7 +5,7 @@
 
 .card-container {
  margin-top: 40px !important;
- margin-bottom: 50px !important;
+ margin-bottom: 5px !important;
 }
 
 .grid-container {
@@ -14,7 +14,7 @@
 }
 
 .project-linebreak {
-    width: 3%;
+    width: 4%;
     border-top: 5px solid #c70039;
     margin: auto;
     margin: 20px auto;
@@ -28,8 +28,7 @@
     margin: 0 auto;
     text-align:left;
     font-size: 1.1em;
-    font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .project-head {
@@ -70,4 +69,16 @@
     font-family: 'Special Elite', cursive, sans-serif
 }
 
+@media only screen and (max-width: 840px) {
+    .project-head {
+        font-size: 2em;
+        padding: 20px;
+    }
+
+    .project-text {
+        width: 90%;
+    }
+
+    
+}
 

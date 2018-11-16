@@ -13,8 +13,8 @@ class App extends Component {
             <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#fff', display: 'block'}} to="/">Patrik Hogler</Link>}>
                 <Navigation>
                 <div className="menudiv" style={{position: 'relative'}}>
-                    <IconButton className="iconbuttonz" name="more_vert" id="demo-menu-lower-left" />
-                    <Menu target="demo-menu-lower-left">
+                <IconButton name="more_vert" id="demo-menu-lower-right" />
+                    <Menu target="demo-menu-lower-right" align="right">
                         <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/resume">Resume</Link></MenuItem>
                         <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/aboutme">About me</Link></MenuItem>
                         <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/project">Projects</Link></MenuItem>

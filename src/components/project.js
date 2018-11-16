@@ -69,7 +69,7 @@ class Project extends Component {
 
                  {/* Project 2 */}
                 <Card className="card-container" shadow={0} style={{width: '412px', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(' + PatrikHogler3 + ') center / cover'}}>Patrik Hogler - Portfolio V 1.0</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(' + PatrikHogler3 + ') center / cover'}}>Patrik Hogler - Portfolio V1.0</CardTitle>
                     <CardText>
                         My first ever made dynamic portfolio site. Built in HTML/CSS, JavaScript and PHP. Admin section to update the content.       
                     </CardText>
@@ -101,7 +101,7 @@ class Project extends Component {
                 <div className="projects-grid">
                     {/* Patrik Hogler - Wordpress */}
                     <Card className="card-container" shadow={0} style={{width: '412px', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(' + PatrikHogler3 + ') center / cover'}}>Patrik Hogler - Portfolio V 2.0</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(' + PatrikHogler3 + ') center / cover'}}>Patrik Hogler - Portfolio V2.0</CardTitle>
                     <CardText>
                         I took my first portfolio site from previous project and converted it into a WordPress theme.
                     </CardText>

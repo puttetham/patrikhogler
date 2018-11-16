@@ -48,6 +48,7 @@
     margin: 0 auto;
     text-align:left;
     font-size: 1.1em;
+    letter-spacing: 1px;
 }
 
 .cellText2 {
@@ -62,6 +63,7 @@
     margin: auto;
     font-size: 1.1em;
     font-weight: bold;
+    width: 70%;
 }
 
 .html {
@@ -156,8 +158,12 @@
         margin-top: 20px;
     }
 
+    .cellText, .cellText3 {
+        width: 90%;
+    }
+
     .banner-code {
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
 
     .backimg {
