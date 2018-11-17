@@ -15,7 +15,7 @@
 }
 
 .landing-grid3 {
-    margin-top: 70px !important;
+    margin-top: 100px !important;
     text-align: center;
 }
 
@@ -44,7 +44,7 @@
     font-family: 'Special Elite', sans-serif;
     padding: 20px;
     margin-top: 10px;
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     text-align:left;
     font-size: 1.1em;
@@ -145,7 +145,7 @@
 
 .social-links i {
     color: #191919;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 8px;
 }
 

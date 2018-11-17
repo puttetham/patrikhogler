@@ -5,6 +5,7 @@ import Danne from '../assets/danne.jpg';
 import Amsterdam from '../assets/test.png';
 import PatrikHogler3 from '../assets/putte2.png';
 import Goat from '../assets/goat.jpg';
+import Footer from './footer';
 
 class Project extends Component {
     constructor(props) {
@@ -25,8 +26,8 @@ class Project extends Component {
                     Master thesis from my time in KYH Stockholm.
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/puttetham/dantrick" target="_blank"><Button colored>GitHub</Button></a>
-                        <a href="https://puttetham.github.io/dantrick/" target="_blank"><Button colored>Livedemo</Button></a>
+                        <a href="https://github.com/puttetham/dantrick" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+                        <a href="https://puttetham.github.io/dantrick/" rel="noopener noreferrer" target="_blank"><Button colored>Livedemo</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -40,8 +41,8 @@ class Project extends Component {
                         My own portfolio site. Built in React.js with Material Design.
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/puttetham/patrikhogler" target="_blank"><Button colored>GitHub</Button></a>
-                        <a href="https://puttetham.github.io/patrikhogler/" target="_blank"><Button colored>Livedemo</Button></a>
+                        <a href="https://github.com/puttetham/patrikhogler" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+                        <a href="https://puttetham.github.io/patrikhogler/" rel="noopener noreferrer" target="_blank"><Button colored>Livedemo</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -57,10 +58,10 @@ class Project extends Component {
                 <Card className="card-container" shadow={0} style={{width: '412px', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url('+ Goat +') center / cover'}}>The Happy Goat</CardTitle>
                     <CardText>
-                    A basic dynamic bed & breakfast site there you could read about the business, and make a room reservation or book an activity. Admin section to update the content and handle the bookings.
+                    A basic dynamic bed & breakfast site there you could read about the business,make a room reservation or book an activity. Admin section to update the content and handle the bookings.
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/puttetham/Den-Glada-Geten" target="_blank"><Button colored>GitHub</Button></a>
+                        <a href="https://github.com/puttetham/Den-Glada-Geten" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -71,10 +72,10 @@ class Project extends Component {
                 <Card className="card-container" shadow={0} style={{width: '412px', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(' + PatrikHogler3 + ') center / cover'}}>Patrik Hogler - Portfolio V1.0</CardTitle>
                     <CardText>
-                        My first ever made dynamic portfolio site. Built in HTML/CSS, JavaScript and PHP. Admin section to update the content.       
+                        My first ever made dynamic portfolio site. Started of as a school project. Built in HTML/CSS, JavaScript, jQuery and PHP with an admin section to update the content on the site.     
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/puttetham/putteprojekt" target="_blank"><Button colored>GitHub</Button></a>
+                        <a href="https://github.com/puttetham/putteprojekt" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -88,7 +89,7 @@ class Project extends Component {
                         A team school project were we built a veteinary portal, there you could read about the business and make a booking with a vet through a calender. Built with HTML/CSS, JavaScript and very basic react.
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/puttetham/Vetly" target="_blank"><Button colored>GitHub</Button></a>
+                        <a href="https://github.com/puttetham/Vetly" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -106,7 +107,7 @@ class Project extends Component {
                         I took my first portfolio site from previous project and converted it into a WordPress theme.
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/puttetham/Patrik-Hogler-WP-theme" target="_blank"><Button colored>GitHub</Button></a>
+                        <a href="https://github.com/puttetham/Patrik-Hogler-WP-theme" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -120,17 +121,17 @@ class Project extends Component {
 
     render(){
         return(
-            <div classname="category-tabs">
+            <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>React</Tab>
-                    <Tab>HTML/CSS + JS + PHP</Tab>
+                    <Tab>JS & PHP</Tab>
                     <Tab>Wordpress</Tab>
                 </Tabs>
 
                 <Grid className="grid-container">
                     <Cell col={12}>
                         <div className="content">
-                            <h1 className ="project-head">Have a look of my <span className="frontend">projects</span></h1>
+                            <h1 className ="project-head">Have a look of my <span className="frontend">Projects</span></h1>
                             <hr className="project-linebreak"></hr>
                             <p className="project-text">Here you can see some projects I have worked with. Most of them are from my Front End 
                                education. Navigate through the tab to see which languages ​​the projects are written in.
@@ -140,7 +141,8 @@ class Project extends Component {
                         </div>
                     </Cell>
                 </Grid>
-          
+            
+                <Footer />
             </div>
         )
     }

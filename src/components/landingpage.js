@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './landingpage.css';
-import { Grid, Cell, ProgressBar } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 import Amsterdam from '../assets/test.png'
+import Footer from './footer';
 
 
 class Landing extends Component {
@@ -26,35 +27,19 @@ class Landing extends Component {
                     
                     <Cell col={6} id="right-cell">
                         <h1 className="cellText2">PATRIK HOGLER</h1>
-                        <p className="cellText">My name is Patrik Hogler and I'm 30 years old. Based in Stockholm, Sweden. Recently in June, I took my Front End Developer degree at KYH Stockholm, which was a two year profession education. During my study, i have learned about HTML, CSS, JavaScript, CMS (Wordpress) and UX/UI. I have also completed a 5 month long internship at a company, where I received and contributied my developed skills. After graduating, I jumped on an education where I learned a little more about SEO. Since I am newly graduated and very fresh in the game, I am looking for a job. I still see myself as very new in web development but am very driven and curious to learn even more.</p>
-                        <p className="cellText3">
+                        <hr className="project-linebreak"></hr>
+                        <p className="cellText">My name is Patrik Hogler and I'm 30 years old. Based in Stockholm, Sweden. Recently in June, I took my Front End Developer degree at KYH Stockholm, which was a two year profession education. During my study, i have learned about HTML, CSS, JavaScript, PHP, CMS (Wordpress) and UX/UI. I have also completed a 5 month long internship at a company, where I received and contributied my development skills. After graduating, I jumped on an education where I learned a little more about SEO/SEM. Since I am newly graduated and very fresh in the game, I am looking for a job. I still see myself as very new at web development but i am very engaged, ambitious and curious to learn even more.</p>
+                        {/* <p className="cellText3">
                         <span className="html">HTML/CSS</span> -
                         <span className="bootstrap"> Bootstrap</span> -
                         <span className="js"> JavaScript</span> -
                         <span className="wordpress">WordPress</span> -
                         <span className="react">ReactJs</span>
-                        </p>
+                        </p> */}
                     </Cell>
                 </Grid>
                        
-                <Grid className="landing-grid3">
-                <Cell col={12}>
-                        <div className="social-links">            
-                            <a href="https://se.linkedin.com/in/patrik-hogler-1377b0129" rel="noopener noreferrer" target="_blank">
-                                <i className="fab fa-linkedin"></i>
-                            </a>
-                            <a href="https://github.com/puttetham" rel="noopener noreferrer" target="_blank">
-                                <i className="fab fa-github"></i>
-                            </a>
-                            <a href="https://www.facebook.com/people/Patrik-Thammavit/753827673" rel="noopener noreferrer" target="_blank">
-                                <i className="fab fa-facebook"></i>
-                            </a>
-                            <a href="https://www.instagram.com/puttetham/" rel="noopener noreferrer" target="_blank">
-                                <i className="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                    </Cell>
-                </Grid> 
+               <Footer />
             </div>
         )
     }

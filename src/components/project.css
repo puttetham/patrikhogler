@@ -14,7 +14,7 @@
 }
 
 .project-linebreak {
-    width: 4%;
+    width: 30px;
     border-top: 5px solid #c70039;
     margin: auto;
     margin: 20px auto;
@@ -55,13 +55,16 @@
     font-family: 'Raleway', cursive, sans-serif;
     letter-spacing: 2px;
     overflow: hidden;
-    height: 90px;
+    text-align: left !important;
+    min-height: 60px;
 }
+
+
 
 .mdl-card__title-text {
     color: #FFF !important;
     font-weight: bold !important;
-    font-family: 'Special Elite', cursive, sans-serif
+    font-family: 'Special Elite', cursive, sans-serif;
 }
 
 .mdl-button {
