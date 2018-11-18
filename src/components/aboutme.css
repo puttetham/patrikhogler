@@ -1,0 +1,122 @@
+
+.right-about {
+    margin: auto !important;
+    text-align: left;
+}
+
+.left-about {
+    margin: 50px auto 0 !important;
+}
+
+.about-head {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+.about-head2 {
+    font-family: 'Special Elite', sans-serif;
+    color: grey;
+    margin: auto;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.about-text {
+    font-family: 'Special Elite', sans-serif;
+    padding: 20px;
+    margin-top: 10px;
+    width: 70%;
+    margin: 0 auto;
+    text-align:left;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+.education-year {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.education-name {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px auto 5px;
+    color: #c70039;
+}
+
+.education-desc {
+    font-family: 'Special Elite', sans-serif;
+    margin-top: 10px;
+    margin: 0 auto;
+    text-align:left;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+.education-container {
+    border: 3px dotted #D0D0D0;
+    width: 80%;
+}
+
+.additionalClassForHead
+{
+    background-color: #eee !important;
+    color: #c70039 !important;
+    font-family: 'Special Elite', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.panel-accordion {
+    background-color: #eee !important;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: -20px;
+}
+
+.skills-container {
+    font-family: 'Special Elite', sans-serif;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 840px) {
+   .education-container {
+       width: 100%;
+       margin: 5px auto;
+   }
+
+   .about-text {
+       width: 100%;
+   }
+
+    .contact-grid {
+        width: 100%;
+    }
+
+    .mdl-list__item{
+        padding:0 !important;
+        margin-left: -5px;
+    }
+
+    .education-name {
+        font-size: 1.7em;
+    }
+
+    .about-head {
+        font-size: 2.5em;
+        padding: 5px;
+    }
+
+    
+}
+

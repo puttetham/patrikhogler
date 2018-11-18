@@ -5,17 +5,18 @@ import Main from "./components/main";
 import { Link } from 'react-router-dom';
 import { IconButton, MenuItem, Menu } from 'react-mdl';
 
+
 class App extends Component {
   render() {
     return (
     <div className="demo-big-content">
         <Layout fixedHeader>
-            <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#fff', display: 'block'}} to="/">Patrik Hogler</Link>}>
+            <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#fff', display: 'block'}} to="/">THAMMAVIT</Link>}>
                 <Navigation>
                 <div className="menudiv" style={{position: 'relative'}}>
                 <IconButton name="more_vert" id="demo-menu-lower-right" />
                     <Menu target="demo-menu-lower-right" align="right">
-                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/resume">Resume</Link></MenuItem>
+                        {/* <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/resume">Resume</Link></MenuItem> */}
                         <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/aboutme">About me</Link></MenuItem>
                         <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/project">Projects</Link></MenuItem>
                         <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/contact">Contact</Link></MenuItem>

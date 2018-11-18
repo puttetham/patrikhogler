@@ -28,7 +28,14 @@ class Landing extends Component {
                     <Cell col={6} id="right-cell">
                         <h1 className="cellText2">PATRIK HOGLER</h1>
                         <hr className="project-linebreak"></hr>
-                        <p className="cellText">My name is Patrik Hogler and I'm 30 years old. Based in Stockholm, Sweden. Recently in June, I took my Front End Developer degree at KYH Stockholm, which was a two year profession education. During my study, i have learned about HTML, CSS, JavaScript, PHP, CMS (Wordpress) and UX/UI. I have also completed a 5 month long internship at a company, where I received and contributied my development skills. After graduating, I jumped on an education where I learned a little more about SEO/SEM. Since I am newly graduated and very fresh in the game, I am looking for a job. I still see myself as very new at web development but i am very engaged, ambitious and curious to learn even more.</p>
+                        <p className="cellText">My name is Patrik Hogler and I'm 30 years old. Based in Stockholm, Sweden. 
+                                                  Recently in June, I took my Front End Developer degree at KYH Stockholm.
+                                                  <br></br>
+                                                  <br></br>
+                                                  After graduating, I jumped on an SEO/SEM course which made me get a deeper understanding for search engine optimization and digital marketing.  
+                                                  Since I am newly graduated and fresh in the game, I am looking for a job. 
+                                                  I still see myself as new into web development but i am very driven, ambitious and curious 
+                                                  to learn even more.</p>
                         {/* <p className="cellText3">
                         <span className="html">HTML/CSS</span> -
                         <span className="bootstrap"> Bootstrap</span> -

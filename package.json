@@ -5,6 +5,7 @@
   "homepage": "http://puttetham.github.io/patrikhogler",
   "dependencies": {
     "react": "^16.6.3",
+    "react-collapsible-component": "^1.1.1",
     "react-dom": "^16.6.3",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.3.1",

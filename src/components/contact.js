@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './contact.css';
 import { Grid, Cell } from 'react-mdl';
-import PatrikContact from '../assets/contact-patrik.png'
 import {List,ListItem,ListItemContent} from 'react-mdl';
 import Footer from './footer';
 
