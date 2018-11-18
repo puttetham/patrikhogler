@@ -31,20 +31,17 @@ class Contact extends Component {
                         <List>
                         <ListItem>
                             <ListItemContent style={{fontFamily: 'Special Elite', fontSize: '1em', width: '70%'}}>
-                            <i className="fas fa-envelope-square" aria-hidden="true"></i>
-                            patrikhogler@hotmail.com
+                            <a href="mailto:patrikhogler@hotmail.com.com" rel="noopener noreferrer" target="_top"><i className="fas fa-envelope-square" aria-hidden="true"></i>patrikhogler@hotmail.com</a>   
                             </ListItemContent>
                         </ListItem>
                         <ListItem>
-                        <ListItemContent style={{fontFamily: 'Special Elite', fontSize: '1em'}}>
-                            <i className="fas fa-phone-square" aria-hidden="true"></i>
-                            076-5576319
+                            <ListItemContent style={{fontFamily: 'Special Elite', fontSize: '1em'}}>
+                            <a href="tel:0765576319" rel="noopener noreferrer" target="_top"><i className="fas fa-phone-square" aria-hidden="true"></i>076-5576319</a>
                             </ListItemContent>
                         </ListItem>
                         <ListItem>
-                        <ListItemContent style={{fontFamily: 'Special Elite', fontSize: '1em'}}>
-                            <i className="fab fa-linkedin" aria-hidden="true"></i>
-                            Patrik Hogler
+                            <ListItemContent style={{fontFamily: 'Special Elite', fontSize: '1em'}}>
+                            <a href="https://se.linkedin.com/in/patrik-hogler-1377b0129" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin" aria-hidden="true"></i>Patrik Hogler</a>
                             </ListItemContent>
                         </ListItem>
                         </List>
