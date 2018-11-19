@@ -19,7 +19,7 @@ class About extends Component {
                     <div className="left-about" style={{textAlign: 'center'}}>
                         <img src={PatrikContact} 
                              alt="Patrik Hogler"
-                             style={{height: '350px', display: 'block', margin: 'auto',  border:'2px solid #000'}}
+                             style={{height: '350px', display: 'block', margin: 'auto',  border:'4px solid #191919'}}
                              />
                         
                         <h2 className="about-head">Patrik Hogler</h2>
