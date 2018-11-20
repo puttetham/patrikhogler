@@ -7,24 +7,19 @@ import { IconButton, MenuItem, Menu } from 'react-mdl';
 
 
 class App extends Component {
-
-handleClick(){
-    window.scrollTop(0,0);
-}
-
   render() {
     return (
     <div className="demo-big-content">
         <Layout fixedHeader>
-            <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#fff', display: 'block'}} to="/" onClick={this.handleClick}>THAMMAVIT</Link>}>
+            <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#fff', display: 'block'}} to="/">THAMMAVIT</Link>}>
                 <Navigation>
                 <div className="menudiv" style={{position: 'relative'}}>
                 <IconButton name="more_vert" id="demo-menu-lower-right" />
                     <Menu target="demo-menu-lower-right" align="right">
                         {/* <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/resume">Resume</Link></MenuItem> */}
-                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/aboutme" onClick={this.handleClick}>About me</Link></MenuItem>
-                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/project" onClick={this.handleClick}>Projects</Link></MenuItem>
-                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/contact"onClick={this.handleClick}>Contact</Link></MenuItem>
+                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/aboutme">About me</Link></MenuItem>
+                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/project">Projects</Link></MenuItem>
+                        <MenuItem><Link style={{textDecoration: 'none', color: '#191919', display: 'block'}} to="/contact">Contact</Link></MenuItem>
                     </Menu>
                 </div>
                 </Navigation>
