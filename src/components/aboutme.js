@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './aboutme.css';
-import { Grid, Cell} from 'react-mdl';
+import { Grid, Cell, List, ListItem} from 'react-mdl';
 import PatrikContact from '../assets/contact-patrik.png'
 import Education from './education';
 import Experience from './experience';
@@ -11,7 +11,42 @@ import PatrikHogler3 from '../assets/putte-contact.png';
 
 
 class About extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          isLoaded: false,
+          userData: [],
+          repositoryData: []
+        };
+    }
+
+    componentDidMount() {
+        fetch("https://api.github.com/users/puttetham")
+            .then(res => res.json())
+            .then(json => {
+                this.setState({
+                    isLoaded: true,
+                    userData: json
+                })
+            });
+
+            fetch("https://api.github.com/users/puttetham/repos")
+            .then(res => res.json())
+            .then(json => {
+                this.setState({
+                    isLoaded: true,
+                    repositoryData: json
+                })
+            });
+        }
+            
+
     render(){
+        const {isLoaded, userData, repositoryData} = this.state;
+        if (!isLoaded) {
+            return <div>Loading..</div>
+        } else {
+       
         return(
             <div lassName="landingcontainer">
                 <Grid lassName="landing-grid2">
@@ -19,7 +54,7 @@ class About extends Component {
                     <div className="left-about" style={{textAlign: 'center'}}>
                         <img src={PatrikContact} 
                              alt="Patrik Hogler"
-                             style={{height: '320px', display: 'block', margin: 'auto',  border:'5px solid #191919'}}
+                             className="about-image"
                              />
                         
                         <h2 className="about-head">Patrik Hogler</h2>
@@ -38,6 +73,25 @@ class About extends Component {
                                                   to learn even more.</p>
 
                         <Skills />
+                        <div>     
+                            <a className="gitLink" href={userData.html_url}>
+                            <h3 className="gitHead"><span className="gitSpan">My Github: </span>{userData.login}</h3>
+                            </a>
+                            <img className="about-image" alt="Patrik Hogler - Github" src={userData.avatar_url} />
+                       
+                            <h3 className="gitHead2">My Repositories </h3>
+                          
+                            {repositoryData.map(repositoryData => (
+                            <ul className="repoList" key={repositoryData.name}>   
+                                <a className="gitLink" href={repositoryData.html_url}>
+                                <li className="repoHead">{repositoryData.name}</li>
+                                </a> 
+                                <li className="repoText">{repositoryData.description}</li>
+                            </ul>
+                            ))};
+                            
+                            
+                        </div>
                     </div>
                 </Cell>
 
@@ -113,5 +167,5 @@ class About extends Component {
         )
     }
 }
-
+}
 export default About;
