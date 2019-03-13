@@ -74,7 +74,7 @@ class About extends Component {
 
                         <Skills />
                         <div>     
-                            <a className="gitLink" href={userData.html_url}>
+                            <a target="a_blank" className="gitLink" href={userData.html_url}>
                             <h3 className="gitHead"><span className="gitSpan">My Github: </span>{userData.login}</h3>
                             </a>
                             <img className="about-image" alt="Patrik Hogler - Github" src={userData.avatar_url} />
@@ -83,7 +83,7 @@ class About extends Component {
                           
                             {repositoryData.map(repositoryData => (
                             <ul className="repoList" key={repositoryData.name}>   
-                                <a className="gitLink" href={repositoryData.html_url}>
+                                <a target="a_blank" className="gitLink" href={repositoryData.html_url}>
                                 <li className="repoHead">{repositoryData.name}</li>
                                 </a> 
                                 <li className="repoText">{repositoryData.description}</li>
