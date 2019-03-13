@@ -1,7 +1,7 @@
 {
-  "main.css": "/patrikhogler/static/css/main.bf1dcb21.chunk.css",
-  "main.js": "/patrikhogler/static/js/main.c60c424c.chunk.js",
-  "main.js.map": "/patrikhogler/static/js/main.c60c424c.chunk.js.map",
+  "main.css": "/patrikhogler/static/css/main.6937f5d0.chunk.css",
+  "main.js": "/patrikhogler/static/js/main.ed47a22a.chunk.js",
+  "main.js.map": "/patrikhogler/static/js/main.ed47a22a.chunk.js.map",
   "static/css/1.82a1de17.chunk.css": "/patrikhogler/static/css/1.82a1de17.chunk.css",
   "static/js/1.7fb12e33.chunk.js": "/patrikhogler/static/js/1.7fb12e33.chunk.js",
   "static/js/1.7fb12e33.chunk.js.map": "/patrikhogler/static/js/1.7fb12e33.chunk.js.map",
@@ -13,9 +13,9 @@
   "static/media/goat.jpg": "/patrikhogler/static/media/goat.68d74f78.jpg",
   "static/media/putte-contact.png": "/patrikhogler/static/media/putte-contact.1f546172.png",
   "static/media/putte2.png": "/patrikhogler/static/media/putte2.69cb100a.png",
-  "static/css/main.bf1dcb21.chunk.css.map": "/patrikhogler/static/css/main.bf1dcb21.chunk.css.map",
+  "static/css/main.6937f5d0.chunk.css.map": "/patrikhogler/static/css/main.6937f5d0.chunk.css.map",
   "static/css/1.82a1de17.chunk.css.map": "/patrikhogler/static/css/1.82a1de17.chunk.css.map",
   "index.html": "/patrikhogler/index.html",
-  "precache-manifest.a53be4518a024a887e71370d88e6ae7a.js": "/patrikhogler/precache-manifest.a53be4518a024a887e71370d88e6ae7a.js",
+  "precache-manifest.b7b4882a31d5272514123711c47b9b65.js": "/patrikhogler/precache-manifest.b7b4882a31d5272514123711c47b9b65.js",
   "service-worker.js": "/patrikhogler/service-worker.js"
 }

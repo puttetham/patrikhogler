@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/patrikhogler/static/media/putte2.69cb100a.png"
   },
   {
-    "revision": "c60c424c845e685962ca",
-    "url": "/patrikhogler/static/css/main.bf1dcb21.chunk.css"
+    "revision": "ed47a22af942c48044ff",
+    "url": "/patrikhogler/static/css/main.6937f5d0.chunk.css"
   },
   {
     "revision": "1f546172f803d8c163b128b49cf91904",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/patrikhogler/static/media/test.b0cd57bb.png"
   },
   {
-    "revision": "c60c424c845e685962ca",
-    "url": "/patrikhogler/static/js/main.c60c424c.chunk.js"
+    "revision": "ed47a22af942c48044ff",
+    "url": "/patrikhogler/static/js/main.ed47a22a.chunk.js"
   },
   {
     "revision": "1f20261bd58d854c035a5726e4bb34ec",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/patrikhogler/static/css/1.82a1de17.chunk.css"
   },
   {
-    "revision": "9922e4a8dea93f736f6516f0db94b6d1",
+    "revision": "420002990692aca8cd536dad093c5490",
     "url": "/patrikhogler/index.html"
   }
 ];
